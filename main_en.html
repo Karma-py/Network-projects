@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCS3320-Webserver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ENCS3320 - Computer Networks Webserver</h1>
+        <div class="language-switcher">
+            <button onclick="window.location.href='/ar'">عربي</button>
+        </div>
+    </header>
+    <section id="team-members">
+        <h2>Team Members</h2>
+        <div class="members">
+            <div class="member">
+                <img src="ahmad.png" alt="Ahmad's Photo">
+                <h3>Name: Ahmad Karmi</h3>
+                <p>ID: 1220003</p>
+                <p>Description: Completed various projects in networking, web development, and more. Skilled in HTML, CSS, and Python. Enjoys hiking and photography.</p>
+            </div>
+            <div class="member">
+                <img src="abdat.png" alt="Abdulrahman's Photo">
+                <h3>Name: Abdulrahman Atyani</h3>
+                <p>ID: 1221808</p>
+                <p>Description: Specializes in database management, cybersecurity, and software development. Proficient in Java, SQL, and enjoys playing guitar.</p>
+            </div>
+        </div>
+    </section>
+    <section id="tcp-topic">
+        <h2>Understanding TCP (Transmission Control Protocol)</h2>
+        <p><b>Transmission Control Protocol (TCP)</b> is one of the core protocols of the Internet protocol suite. It ensures reliable, ordered, and error-checked delivery of data between applications running on devices connected to a network.</p>
+        <img src="TCP.jpg" alt="TCP Protocol Image">
+        <h3>Key Features of TCP:</h3>
+        <ul>
+            <li><b>Reliability:</b> Ensures data reaches its destination accurately through retransmission of lost packets.</li>
+            <li><b>Ordered Delivery:</b> Maintains the correct sequence of data packets during transmission.</li>
+            <li><b>Error Checking:</b> Verifies the integrity of data using checksums.</li>
+            <li><b>Flow Control:</b> Balances the data flow between sender and receiver to prevent congestion.</li>
+            <li><b>Connection-Oriented:</b> Establishes a connection before data transfer begins using the <i>three-way handshake</i>.</li>
+        </ul>
+        <h3>How TCP Works:</h3>
+        <ol>
+            <li><b>Connection Establishment:</b> The sender and receiver perform a three-way handshake to initiate communication.</li>
+            <li><b>Data Transmission:</b> Data is broken into packets, numbered, and sent sequentially to the receiver.</li>
+            <li><b>Acknowledgment:</b> The receiver acknowledges each packet, confirming successful delivery.</li>
+            <li><b>Connection Termination:</b> Once the data transfer is complete, the connection is gracefully closed.</li>
+        </ol>
+    </section>
+    <section id="resources">
+        <h2>Additional Resources</h2>
+        <ul>
+            <li><a href="supporting_material_en.html">Supporting Material</a></li>
+            <li><a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">Textbook Website</a></li>
+            <li><a href="https://ritaj.birzeit.edu/" target="_blank">Ritaj Website</a></li>
+        </ul>
+    </section>
+</body>
+</html>

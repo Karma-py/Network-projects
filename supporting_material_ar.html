@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supporting Material Request</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>طلب الموارد الداعمة</h1>
+
+    <form action="/request_file" method="POST" id="request-form">
+        <label for="file_name">ادخل اسم الملف:</label>
+        <input type="text" id="file_name" name="file_name" required>
+
+        <label for="file_type">File Type:</label>
+        <select id="file_type" name="file_type" required>
+            <option value="image">صورة</option>
+            <option value="video">فيديو</option>
+        </select>
+
+        <button type="submit">طلب</button>
+    </form>
+
+</body>
+
+</html>
